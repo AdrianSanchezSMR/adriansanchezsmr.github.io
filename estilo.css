@@ -1,3 +1,10 @@
+body{
+    width: 80%;
+    margin: auto;
+}
 img{
     width: 100%;
+}
+h1,p{
+    text-align: center;
 }
