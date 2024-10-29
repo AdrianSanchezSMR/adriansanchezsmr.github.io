@@ -18,7 +18,7 @@ img{
 /*Header*/
 header{
     
-    /*background-color: cornflowerblue ;/*Fondo para el header(Intentar pner imagen detras y este azul para que la ponga con ese color)*/
+    background-color: cornflowerblue ;
     /*background-image: url(imagenes/portada);*/
     /*background-repeat: no-repeat;*/
     background-size: 100% 600px;
@@ -26,7 +26,7 @@ header{
     background-size: cover;
     background-attachment: fixed;
     position: relative;
-    color: hwb(219 39% 7%);
+    /*color: hwb(219 39% 7%);*/
 }
 
 header .titulo{
