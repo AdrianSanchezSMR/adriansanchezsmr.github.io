@@ -22,7 +22,7 @@ header{
     /*background-image: url(imagenes/portada);*/
     /*background-repeat: no-repeat;*/
     background-size: 100% 600px;
-    background: linear-gradient(to right, hsla(212, 82%, 64%, 0.459), hsla(202, 80%, 72%, 0.664)), url(imagenes/portada.jpg);
+    background: linear-gradient(to right, hsla(212, 82%, 64%, 0.459), hsla(202, 80%, 72%, 0.664)), url(imagenes/portada.webp);
     background-size: cover;
     background-attachment: fixed;
     position: relative;
