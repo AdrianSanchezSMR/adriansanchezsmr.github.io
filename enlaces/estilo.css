@@ -1,0 +1,67 @@
+
+body{
+    width: 100%;
+    margin: auto;
+
+    
+}
+
+/*nav*/
+nav{
+    display: flex;
+    background-color: white;
+    align-items: center;
+    font-family: "Lobster", serif;
+    font-weight: 100;
+}
+nav a{
+    text-decoration: none;
+    color: inherit;
+    
+}
+nav a:hover{
+    padding-bottom: 10px;
+    border-bottom: 1px solid #36B5FE;
+    
+}
+
+header img{
+    display: inline-block;
+    /*width: 8%;*/
+    width: 180px;
+}
+
+ol{
+    text-align: right;
+    display: inline-block;
+    
+    width: 100%;
+}
+
+nav ol li{
+    display: inline-block;
+    text-align: center;
+    padding: 0 25px 0 25px;
+    color:#36B5FE;
+    font-size: 1.3em;
+    font-weight: bolder;
+}
+
+
+
+/*enlaces img*/
+figure img{
+    width: 33%;
+    display: inline-block;
+    border: 5px solid #36B5FE;
+    box-sizing: border-box;
+    
+    
+}
+
+figure{
+    padding-bottom: 65px;
+    border-bottom:4px solid #36B5FE;
+    width: 80%;
+    margin: auto;
+}

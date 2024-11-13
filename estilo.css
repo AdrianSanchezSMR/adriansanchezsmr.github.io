@@ -1,18 +1,11 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
+
 body{
     width: 100%;
     margin: auto;
-    /*font-family:;*/
+    font-family: "Bubblegum Sans", serif;
+    
 }
-img{
-    width: 50%;
-    margin: 0;
-    padding: 0;
-}
+
 
 
 /*Header*/
@@ -27,6 +20,7 @@ header{
     background-attachment: fixed;
     position: relative;
     /*color: hwb(219 39% 7%);*/
+    
 }
 
 header .titulo{
@@ -37,33 +31,27 @@ header .titulo{
     justify-content: center;
     flex-direction: column;
     text-align: center;
+    font-family: "Spicy Rice", serif;
 }
 .titulo h1{
-    font-size: 50px;
+    font-size: 80px;
     color: white;
+    font-weight: 100;
 }
 .titulo h2{
     font-size: 30px;
    
     color: white;
-    font-weight:200;
+    font-weight:100;
 }
 
 /*nav*/
 nav{
-    /*text-align: right;*/
-    padding: 30px 50px ;
-    font-weight: 200;
-    
-    text-align: center;
-}
-nav li{
-    color: white;
-    margin-right: 10px;
-    list-style: none;
-    display: inline-block;
-    padding: 5px;
-    
+    display: flex;
+    background-color: white;
+    align-items: center;
+    font-family: "Lobster", serif;
+    font-weight: 100;
 }
 nav a{
     text-decoration: none;
@@ -71,8 +59,64 @@ nav a{
     
 }
 nav a:hover{
-    text-decoration: underline;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #36B5FE;
+    
 }
+
+header img{
+    display: inline-block;
+    /*width: 8%;*/
+    width: 180px;
+}
+
+ol{
+    text-align: right;
+    display: inline-block;
+    
+    width: 100%;
+}
+
+nav ol li{
+    display: inline-block;
+    text-align: center;
+    padding: 0 25px 0 25px;
+    color:#36B5FE;
+    font-size: 1.3em;
+    font-weight: bolder;
+}
+/*pruebas nav*/
+/*nav{
+    font-weight: 200;
+    background-color: white;
+    display: flex;
+    width: 100%;
+     
+}
+*/
+/*nav li{
+    margin-top: 25px;
+    margin-bottom: 25px;
+    
+}
+nav li{
+    
+    color: black;
+    
+    list-style: none;
+    display: inline-block;
+    padding: 15px;
+    
+    
+}
+nav img{
+    
+    text-align: left;
+    width: 10%;
+    
+}
+*/
+
 
 /**/
 section{
