@@ -9,14 +9,22 @@
 
 <url>
   <loc>https://adriansanchezsmr.github.io/</loc>
-  <lastmod>2024-11-13T07:28:06+02:00</lastmod>
+  <lastmod>2024-20-14T07:28:06+02:00</lastmod>
   <priority>1.00</priority>
 </url>
 <url>
-  <loc>https://adriansanchezsmr.github.io/enlaces</loc>
-  <lastmod>2024-11-13T07:28:06+02:00</lastmod>
+  <loc>https://adriansanchezsmr.github.io/enlaces/</loc>
+  <lastmod>2024-20-14T07:28:06+02:00</lastmod>
+  <priority>0.60</priority>
+</url>
+<url>
+  <loc>https://adriansanchezsmr.github.io/somos/</loc>
+  <lastmod>2024-20-14T07:28:06+02:00</lastmod>
   <priority>0.70</priority>
 </url>
-
-
+<url>
+  <loc>https://adriansanchezsmr.github.io/valorados/</loc>
+  <lastmod>2024-20-14T07:28:06+02:00</lastmod>
+  <priority>0.80</priority>
+</url>
 </urlset>

@@ -1,4 +1,3 @@
-
 body{
     width: 100%;
     margin: auto;
@@ -50,19 +49,9 @@ nav ol li{
 
 
 
-/*enlaces img*/
-figure img{
-    width: 33%;
-    display: inline-block;
-    border: 5px solid #36B5FE;
-    box-sizing: border-box;
-    
-    
-}
 
-figure{
-    padding-bottom: 65px;
-    border-bottom:4px solid #36B5FE;
-    width: 80%;
-    margin: auto;
-}
+
+
+
+
+
