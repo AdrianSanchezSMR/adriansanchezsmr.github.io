@@ -180,7 +180,7 @@ h3{
     top: 0;
     background-color: #36B5FE;
     color: white;
-    
+    z-index: 10;
 }
 
 
