@@ -2,8 +2,50 @@
 body{
     width: 100%;
     margin: auto;
-
+    font-family: "Bubblegum Sans", serif;
+    padding: 0;
     
+}
+
+
+
+/*Header*/
+header{
+    
+    /*background-color: cornflowerblue ;*/
+    /*background-image: url(imagenes/portada);*/
+    /*background-repeat: no-repeat;*/
+    background-size: 100% 600px;
+    background: linear-gradient(to right, hsla(0, 0%, 0%, 0.559), hsla(0, 0%, 9%, 0.664)), url(../imagenes/portada.webp);
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+    /*color: hwb(219 39% 7%);*/
+    margin-bottom: 50px;
+}
+
+header .titulo{
+    display: flex;
+    height: 430px;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    font-family: "Spicy Rice", serif;
+}
+.titulo h1{
+    font-size: 80px;
+    color: white;
+    font-weight: 100;
+    text-align: center;
+    
+}
+.titulo h2{
+    font-size: 30px;
+   
+    color: white;
+    font-weight:100;
 }
 
 /*nav*/
@@ -13,6 +55,8 @@ nav{
     align-items: center;
     font-family: "Lobster", serif;
     font-weight: 100;
+    /*position: sticky;
+    top: 0;*/
 }
 nav a{
     text-decoration: none;
@@ -47,6 +91,7 @@ nav ol li{
     font-size: 1.3em;
     font-weight: bolder;
 }
+
 
 
 
