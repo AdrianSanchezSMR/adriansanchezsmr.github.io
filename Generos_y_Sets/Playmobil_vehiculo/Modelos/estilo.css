@@ -1,3 +1,4 @@
+
 body{
     width: 100%;
     margin: auto;
@@ -15,7 +16,7 @@ header{
     /*background-image: url(imagenes/portada);*/
     /*background-repeat: no-repeat;*/
     background-size: 100% 600px;
-    background: linear-gradient(to right, hsla(0, 0%, 0%, 0.559), hsla(0, 0%, 9%, 0.664)), url(../imagenes/portada.webp);
+    background: linear-gradient(to right, hsla(0, 0%, 0%, 0.559), hsla(0, 0%, 9%, 0.664)), url(../../../imagenes/portada.webp);
     background-size: cover;
     background-attachment: fixed;
     position: relative;
@@ -119,31 +120,8 @@ h4{
     font-size: 1.5em;
     
 }
-.contenedor{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    margin-bottom: 10px;
-    
-}
 
-.imagenes{
-    width: 30%;
-    position: relative;
-}
 
-img{
-    width: 100%;
-    height: 100%;
-}
-.texto-imagenes{
-    width: 68%;
-    font-size: 1.3em;
-}
-main a{
-    color: inherit;
-    text-decoration: none;
-}
 /*footer*/
 footer{
     background-color: #36B5FE;
