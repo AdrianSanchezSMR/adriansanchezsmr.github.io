@@ -101,10 +101,25 @@ main{
     padding: 0;
 }
 section article div{
+    /*width: 80%;
+    margin: auto;*/
+    margin-left: 25px;
+    margin-right: 25px;
+    font-size: 1.3em;
+    
+    
+}
+article div ul li{
+    margin: 5px;
+}
+article span{
+    font-weight: bolder;
+    text-decoration: underline #36B5FE;
+}
+article div p:nth-of-type(1){
     width: 80%;
     margin: auto;
-    
-    
+    text-align: center;
 }
 h3{
     text-align: center;
