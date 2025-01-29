@@ -76,20 +76,54 @@ header img{
     height: auto;
 }
 
-ol{
+nav>ol{
     text-align: right;
     display: inline-block;
     
     width: 100%;
 }
 
-nav ol li{
+nav>ol>li{
     display: inline-block;
     text-align: center;
     padding: 0 25px 0 25px;
     color:#36B5FE;
     font-size: 1.3em;
     font-weight: bolder;
+    position: relative;
+    
+}
+
+/*submenu*/
+
+nav>ol>li>ol{
+    width: 260px;
+    font-size: 1.0em;
+    background-color: white;
+    background-color: #36B5FE;
+    text-align:left;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    position: absolute;
+    left: -15px;
+    border-radius: 20px;
+    display: none;
+    color: white;
+    
+}
+nav>ol>li>ol>li {
+    margin: 15px;
+    margin-left: 20px;
+    
+}
+
+nav>ol>li:hover>ol{
+    display: block;
+}
+nav>ol>li>ol>li a:hover{
+    padding-bottom: 8px;
+    border-bottom: 1px solid white;
 }
 
 /*main*/

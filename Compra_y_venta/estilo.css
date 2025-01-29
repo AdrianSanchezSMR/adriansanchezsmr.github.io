@@ -19,7 +19,7 @@ header{
     /*background-image: url(imagenes/portada);*/
     /*background-repeat: no-repeat;*/
     background-size: 100% 600px;
-    background: linear-gradient(to right, hsla(0, 0%, 0%, 0.559), hsla(0, 0%, 9%, 0.664)), url(imagenes/portada.webp);
+    background: linear-gradient(to right, hsla(0, 0%, 0%, 0.559), hsla(0, 0%, 9%, 0.664)), url(../imagenes/portada.webp);
     background-size: cover;
     background-attachment: fixed;
     position: relative;
@@ -283,79 +283,6 @@ input:checked+label svg{
         font-weight:100;
     }
 }
-
-
-
-
-
-
-
-
-
-
-
-/*main*/
-
-main{
-    
-    margin: 0 auto;
-    
-    padding: 0;
-}
-section article div{
-    /*width: 80%;
-    margin: auto;*/
-    margin-left: 25px;
-    margin-right: 25px;
-    font-size: 1.3em;
-    
-    
-}
-article div ul li{
-    margin: 5px;
-}
-article span{
-    font-weight: bolder;
-    text-decoration: underline #36B5FE;
-}
-article div p:nth-of-type(1){
-    width: 80%;
-    margin: auto;
-    text-align: center;
-}
-h3{
-    text-align: center;
-    font-size: 1.8em;
-    position: sticky;
-    top: 0;
-    background-color: #36B5FE;
-    color: white;
-    z-index: 10;
-}
-h4{
-    text-decoration: underline  #36B5FE 5px;
-    font-size: 1.5em;
-    
-}
-
-article:nth-of-type(3) div p:nth-of-type(1){
-    width: initial;
-    margin: initial;
-    text-align: initial;
-    
-}
-
-article:nth-of-type(3) div img{
-    width: 18%;
-    
-}
-picture{
-    width: 100%;
-    text-align: center;
-    display: block;
-}
-
-
 
 
 
