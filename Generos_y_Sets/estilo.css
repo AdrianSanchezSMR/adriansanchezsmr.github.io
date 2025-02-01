@@ -125,6 +125,137 @@ nav>ol>li>ol>li a:hover{
     border-bottom: 1px solid white;
 }
 
+
+
+
+
+
+/*menu responsive*/
+input{
+    display: none;
+}
+svg{
+    color: #36B5FE;
+    
+}
+
+
+label{
+    display: flex;
+    background-color: white;
+    align-items: center;
+    font-family: "Lobster", serif;
+    font-weight: 100;
+    
+    
+}
+label img{
+    display: inline-block;
+    width: 180px;
+    height: auto;
+}
+
+label>div{
+    text-align: right;
+    display: inline-block;
+    width: 100%;
+    margin-right: 25px;
+    
+}
+
+
+/*nav responsive*/
+
+form{
+    background-color: aqua;
+}
+form nav{
+    background-color: #36B5FE;
+    font-family: "Lobster", serif;
+    font-weight: 100;
+    width: 78%;
+    position: absolute;
+    right: 0;
+    z-index: 11;
+    
+}
+form nav a{
+    text-decoration: none;
+    color: inherit;
+    
+}
+form nav a:hover{
+    padding-bottom: 10px;
+    border-bottom: 1px solid white;
+    
+}
+
+form nav>ol{
+    text-align: left;
+    
+    width: 100%;
+}
+
+form nav>ol>li{
+    display: block;
+    text-align: left;
+    padding: 20px 0 20px 0;
+    color:white;
+    font-size: 1.3em;
+    font-weight: bolder;
+    
+    
+}
+
+/*submenu responsive*/
+
+form nav>ol>li>ol{
+    font-size: 1.0em;
+    display: block;
+    list-style: circle;
+    padding: 0;
+    margin: 0;
+    color: white;
+    position: static;
+}
+form nav>ol>li>ol>li {
+    margin: 15px;
+    margin-left: 20px;
+    
+}
+
+
+
+/*funcionalidad*/
+form{
+    display: none;
+}
+form nav{
+    display: none;
+}
+input:checked~nav{
+    display: block;
+    overflow: hidden;
+}
+input:checked+label::after{
+    content: "X";
+    font-size: 40px; 
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #36B5FE;
+    margin-right: 38px;
+}
+input:checked+label svg{
+    display: none;
+}
+
+
+
+
+
+
+
+
+
 /*main*/
 
 main{
@@ -178,6 +309,13 @@ main a{
     color: inherit;
     text-decoration: none;
 }
+
+
+
+
+
+
+
 /*footer*/
 footer{
     background-color: #36B5FE;
@@ -217,4 +355,88 @@ footer div a{
 footer img{
     width: 70%;
     
+}
+
+
+
+
+
+
+
+
+/*medias para las cosas responsive*/
+
+@media (max-width:770px){
+    nav{
+        display: none;
+    }
+    form{
+        display: block;
+    }
+    .titulo h1{
+        font-size: 70px;
+        color: white;
+        font-weight: 100;
+        text-align: center;
+        
+    }
+    .titulo h2{
+        font-size: 20px;
+       
+        color: white;
+        font-weight:100;
+    }
+    .imagenes{
+        width: 50%;
+        position: relative;
+    }
+    .texto-imagenes{
+        width: 48%;
+        font-size: 1.3em;
+    }
+}
+
+
+
+@media (max-width:379px){
+    .titulo h1{
+        font-size: 60px;
+        color: white;
+        font-weight: 100;
+        text-align: center;
+        
+    }
+    .titulo h2{
+        font-size: 20px;
+       
+        color: white;
+        font-weight:100;
+    }
+    main p,li{
+        font-size: 0.8em;
+    }
+    .contenedor{
+        display: block;
+        align-items: center;
+        justify-content: space-between;
+        margin-bottom: 10px;
+        width: 100%;
+        border-top: 4px solid #36B5FE;
+        padding-top: 25px;
+    }
+    .contenedor:nth-of-type(1){
+        border-top: none;
+    }
+    .imagenes{
+        padding-top: 25px;
+        width: 70%;
+        display:block;
+    }
+    .texto-imagenes{
+        width: 80%;
+        font-size: 1.3em;
+        display: block;
+        padding-bottom: 25px;
+        
+    }
 }
