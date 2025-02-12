@@ -385,6 +385,23 @@ footer img{
 scale: 20px;
 }
 
+footer ol{
+    text-align: center;
+    display: block;
+    width: 100%;
+    margin-bottom: 25px;
+    padding: 0;
+}
+footer ol li{
+
+    display: initial;
+    text-align: center;
+    padding: initial;
+    font-size: 1.3em;
+    
+    position: initial;
+    
+}
 
 
 
@@ -418,7 +435,7 @@ scale: 20px;
 
 
 
-@media (max-width:379px){
+@media (max-width:693px){
     .titulo h1{
         font-size: 60px;
         color: white;

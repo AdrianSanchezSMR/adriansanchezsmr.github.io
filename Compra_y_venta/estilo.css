@@ -262,27 +262,7 @@ input:checked+label svg{
 }
 
 
-@media (max-width:770px){
-    nav{
-        display: none;
-    }
-    form{
-        display: block;
-    }
-    .titulo h1{
-        font-size: 70px;
-        color: white;
-        font-weight: 100;
-        text-align: center;
-        
-    }
-    .titulo h2{
-        font-size: 20px;
-       
-        color: white;
-        font-weight:100;
-    }
-}
+
 
 
 
@@ -332,7 +312,34 @@ footer img{
 scale: 20px;
 }
 
-@media (max-width:379px){
+
+
+@media (max-width:770px){
+    nav{
+        display: none;
+    }
+    form{
+        display: block;
+    }
+    .titulo h1{
+        font-size: 70px;
+        color: white;
+        font-weight: 100;
+        text-align: center;
+        
+    }
+    .titulo h2{
+        font-size: 20px;
+       
+        color: white;
+        font-weight:100;
+    }
+}
+
+
+
+
+@media (max-width:693px){
     .titulo h1{
         font-size: 60px;
         color: white;

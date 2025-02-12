@@ -350,7 +350,7 @@ footer p{
 
 
     figure img{
-        width: 60%;
+        width: 100%;
         display: block;
         border: 5px solid #36B5FE;
         margin: auto;
@@ -371,7 +371,7 @@ footer p{
 
 
 
-@media (max-width:379px){
+@media (max-width:693px){
     .titulo h1{
         font-size: 60px;
         color: white;
