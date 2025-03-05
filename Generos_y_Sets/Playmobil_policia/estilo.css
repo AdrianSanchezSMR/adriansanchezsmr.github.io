@@ -122,6 +122,131 @@ nav>ol>li>ol>li a:hover{
     border-bottom: 1px solid white;
 }
 
+
+
+
+/*menu responsive*/
+input{
+    display: none;
+}
+svg{
+    color: #36B5FE;
+    
+}
+
+
+label{
+    display: flex;
+    background-color: white;
+    align-items: center;
+    font-family: "Lobster", serif;
+    font-weight: 100;
+    
+    
+}
+label img{
+    display: inline-block;
+    width: 180px;
+    height: auto;
+}
+
+label>div{
+    text-align: right;
+    display: inline-block;
+    width: 100%;
+    margin-right: 25px;
+    
+}
+
+
+/*nav responsive*/
+
+form{
+    background-color: aqua;
+}
+form nav{
+    background-color: #36B5FE;
+    font-family: "Lobster", serif;
+    font-weight: 100;
+    width: 78%;
+    position: absolute;
+    right: 0;
+    z-index: 11;
+    
+}
+form nav a{
+    text-decoration: none;
+    color: inherit;
+    
+}
+form nav a:hover{
+    padding-bottom: 10px;
+    border-bottom: 1px solid white;
+    
+}
+
+form nav>ol{
+    text-align: left;
+    
+    width: 100%;
+}
+
+form nav>ol>li{
+    display: block;
+    text-align: left;
+    padding: 20px 0 20px 0;
+    color:white;
+    font-size: 1.3em;
+    font-weight: bolder;
+    
+    
+}
+
+/*submenu responsive*/
+
+form nav>ol>li>ol{
+    font-size: 1.0em;
+    display: block;
+    list-style: circle;
+    padding: 0;
+    margin: 0;
+    color: white;
+    position: static;
+}
+form nav>ol>li>ol>li {
+    margin: 15px;
+    margin-left: 20px;
+    
+}
+
+
+
+/*funcionalidad*/
+form{
+    display: none;
+}
+form nav{
+    display: none;
+}
+input:checked~nav{
+    display: block;
+    overflow: hidden;
+}
+input:checked+label::after{
+    content: "X";
+    font-size: 40px; 
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #36B5FE;
+    margin-right: 38px;
+}
+input:checked+label svg{
+    display: none;
+}
+
+
+
+
+
 /*main*/
 
 main{
@@ -150,6 +275,59 @@ h4{
     font-size: 1.5em;
     
 }
+
+
+
+
+
+
+
+
+
+
+
+
+/*nav main*/
+main nav{
+    /*display: flex;
+    background-color: white;
+    align-items: center;
+    font-family: "Lobster", serif;
+    font-weight: 100;*/
+    position: sticky;
+    top: 0;
+}
+
+
+
+
+
+main nav>ol{
+    text-align: center;
+    /*display: inline-block;
+    width: 100%;*/
+}
+
+nav>ol>li{
+    display: inline-block;
+    text-align: center;
+    padding: 0 25px 0 25px;
+    color:#36B5FE;
+    font-size: 1.3em;
+    font-weight: bolder;
+    position: relative;
+    
+}
+
+
+
+
+
+
+
+
+
+
 
 
 /*footer*/
@@ -192,3 +370,70 @@ footer img{
     width: 70%;
     
 }
+
+/*medias para las cosas responsive*/
+
+@media (max-width:770px){
+    nav{
+        display: none;
+    }
+    main nav{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    form{
+        display: block;
+    }
+    .titulo h1{
+        font-size: 70px;
+        color: white;
+        font-weight: 100;
+        text-align: center;
+        
+    }
+    .titulo h2{
+        font-size: 20px;
+       
+        color: white;
+        font-weight:100;
+    }
+    article:nth-of-type(3) div img{
+        width: 45%;
+        
+    }
+}
+
+
+
+@media (max-width:693px){
+    .titulo h1{
+        font-size: 60px;
+        color: white;
+        font-weight: 100;
+        text-align: center;
+        
+    }
+    .titulo h2{
+        font-size: 20px;
+       
+        color: white;
+        font-weight:100;
+    }
+    main p,li{
+        font-size: 0.8em;
+    }
+    article:nth-of-type(3) div img{
+        width: 48%;
+        
+    }
+}
+
+
+
+
+
+
+
+
+
