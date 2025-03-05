@@ -321,6 +321,50 @@ footer span{
 footer p{
     margin: 0;
 }
+footer h3{
+    text-align: center;
+    font-family: "Spicy Rice", serif;
+    font-size: 50px;
+    color: white;
+    font-weight: 1;
+    margin: 15px 0 15px 0;
+}
+
+footer div{
+    width: 100%;
+    
+}
+footer div a{
+    display: inline-block;
+    margin: auto;
+}
+footer img{
+    width: 70%;
+    
+}
+
+#logoPrueba:hover{
+scale: 20px;
+}
+
+footer ol{
+    text-align: center;
+    display: block;
+    width: 100%;
+    margin-bottom: 25px;
+    padding: 0;
+}
+footer ol li{
+
+    display: initial;
+    text-align: center;
+    padding: initial;
+    font-size: 1.3em;
+    
+    position: initial;
+    
+}
+
 
 
 
