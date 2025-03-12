@@ -159,7 +159,7 @@ label img{
     height: auto;
 }
 
-label>div{
+label>span{
     text-align: right;
     display: inline-block;
     width: 100%;
