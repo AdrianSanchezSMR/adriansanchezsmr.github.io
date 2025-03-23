@@ -68,7 +68,7 @@ nav a{
 }
 nav a:hover{
     padding-bottom: 10px;
-    border-bottom: 1px solid #36B5FE;
+    border-bottom: 1px solid #0372D1;
     
 }
 
@@ -88,7 +88,7 @@ nav>ol>li{
     display: inline-block;
     text-align: center;
     padding: 0 25px 0 25px;
-    color:#36B5FE;
+    color:#0372D1;
     font-size: 1.3em;
     font-weight: bolder;
     position: relative;
@@ -100,8 +100,8 @@ nav>ol>li{
 nav>ol>li>ol{
     width: 260px;
     font-size: 1.0em;
-    background-color: white;
-    background-color: #36B5FE;
+    
+    background-color: #0372D1;
     text-align:left;
     list-style: none;
     padding: 0;
@@ -139,7 +139,7 @@ input{
     display: none;
 }
 svg{
-    color: #36B5FE;
+    color: #0372D1;
     
 }
 
@@ -170,11 +170,9 @@ label>span{
 
 /*nav responsive*/
 
-form{
-    background-color: aqua;
-}
+
 form nav{
-    background-color: #36B5FE;
+    background-color: #0372D1;
     font-family: "Lobster", serif;
     font-weight: 100;
     width: 78%;
@@ -245,7 +243,7 @@ input:checked+label::after{
     content: "X";
     font-size: 40px; 
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    color: #36B5FE;
+    color: #0372D1;
     margin-right: 38px;
 }
 input:checked+label svg{
@@ -268,7 +266,7 @@ h3{
     font-size: 1.8em;
     position: sticky;
     top: 0;
-    background-color: #36B5FE;
+    background-color: #0372D1;
     color: white;
     z-index: 10;
 }
@@ -283,7 +281,7 @@ h3{
 
 /*footer*/
 footer{
-    background-color: #36B5FE;
+    background-color: #0372D1;
     text-align: center;
     color: white;
     padding: 1px;
