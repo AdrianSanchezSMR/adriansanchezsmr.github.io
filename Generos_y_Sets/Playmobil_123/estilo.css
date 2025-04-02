@@ -18,11 +18,6 @@ h4{
 
 /*nav main*/
 main nav{
-    /*display: flex;
-    background-color: white;
-    align-items: center;
-    font-family: "Lobster", serif;
-    font-weight: 100;*/
     position: sticky;
     top: 0;
 }
@@ -32,19 +27,17 @@ main nav{
 
 
 main nav>ol{
-    text-align: center;
-    /*display: inline-block;
-    width: 100%;*/
+    display: flex;
+    justify-content: center;
+    padding: 0;
 }
 
 nav>ol>li{
-    display: inline-block;
-    text-align: center;
+    
     padding: 0 25px 0 25px;
     color:#0372D1;
     font-size: 1.3em;
     font-weight: bolder;
-    position: relative;
     
 }
 
