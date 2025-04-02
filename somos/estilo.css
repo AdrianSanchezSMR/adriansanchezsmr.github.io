@@ -1,138 +1,51 @@
-body{
-    width: 100%;
-    margin: auto;
-    font-family: "Bubblegum Sans", serif;
-    padding: 0;
-    
-}
-
 
 
 /*Header*/
 header{
-    
-    /*background-color: cornflowerblue ;*/
-    /*background-image: url(imagenes/portada);*/
-    /*background-repeat: no-repeat;*/
-    background-size: 100% 600px;
-    background: linear-gradient(to right, hsla(0, 0%, 0%, 0.559), hsla(0, 0%, 9%, 0.664)), url(../imagenes/portada.webp);
+    background: linear-gradient(to right, hsla(0, 0%, 0%, 0.559), hsla(0, 0%, 9%, 0.664)), url(../imagenes/portada.webp);   
     background-size: cover;
-    background-attachment: fixed;
-    position: relative;
-    /*color: hwb(219 39% 7%);*/
-    
 }
 
-header .titulo{
-    display: flex;
-    height: 430px;
-    width: 100%;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    text-align: center;
-    font-family: "Spicy Rice", serif;
-}
-.titulo h1{
-    font-size: 80px;
-    color: white;
-    font-weight: 100;
-    text-align: center;
-    
-}
-.titulo h2{
-    font-size: 30px;
-   
-    color: white;
-    font-weight:100;
-}
 
-/*nav*/
-nav{
-    display: flex;
-    background-color: white;
-    align-items: center;
-    font-family: "Lobster", serif;
-    font-weight: 100;
-    /*position: sticky;
-    top: 0;*/
-}
-nav a{
-    text-decoration: none;
-    color: inherit;
-    
-}
-nav a:hover{
-    padding-bottom: 10px;
-    border-bottom: 1px solid #36B5FE;
-    
-}
 
-header img{
-    display: inline-block;
-    /*width: 8%;*/
-    width: 180px;
-    height: auto;
-}
-
-ol{
-    text-align: right;
-    display: inline-block;
-    
-    width: 100%;
-}
-
-nav ol li{
-    display: inline-block;
-    text-align: center;
-    padding: 0 25px 0 25px;
-    color:#36B5FE;
-    font-size: 1.3em;
-    font-weight: bolder;
-}
 
 
 /*main*/
-span{
+
+main{
+    
+    margin: 0 auto;
+    
+    padding: 0;
+}
+section article div{
+
+    margin-left: 25px;
+    margin-right: 25px;
+    font-size: 1.3em;
+    
+    
+}
+article div ul li{
+    margin: 5px;
+}
+article span{
     font-weight: bolder;
 }
-article p, article ul, article h3{
-    width: 80%;
-    margin: auto;
-}
-h2{
+
+h3{
     text-align: center;
-    font-size: 1.4em;
+    font-size: 1.8em;
     position: sticky;
     top: 0;
-    background-color: #36B5FE;
+    background-color: #0372D1;
     color: white;
     z-index: 10;
 }
 
-article{
-    font-size: 1.3em;
-}
-h3{
-    text-decoration: underline  #36B5FE 5px;
-}
 
-/*footer*/
-footer{
-    background-color: #36B5FE;
-    text-align: center;
-    color: white;
-    padding: 1px;
-}
-footer a{
-    color: inherit;
-    text-decoration: none;
-    
-}
-footer span{
-    font-size: 2em;
-    vertical-align: middle;
-}
-footer p{
-    margin: 0;
-}
+
+
+
+
+
