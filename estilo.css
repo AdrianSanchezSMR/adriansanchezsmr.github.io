@@ -193,8 +193,8 @@ article:nth-of-type(2)>div>div>div h5{
 }
 
 button{
-    background-color: #F74900;
-    width: 15%;
+    background-color: #C20000;
+    width: 35%;
     padding: 15px;
     border-radius: 20px;
     color: white;
@@ -464,6 +464,9 @@ article:nth-of-type(3)>div>div:nth-of-type(3) div:nth-of-type(2){
         left: 0;
         animation: none;
         
+    }
+    button{
+        width: 40%;
     }
 }
 
