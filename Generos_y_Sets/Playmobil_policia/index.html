@@ -54,11 +54,11 @@
             <input type="checkbox" name="ganas" id="ganas">
             <label for="ganas">
                 <img src="../../imagenes/logo.webp" alt="logo de Playmoverso">
-                <span>
-                    <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="currentColor" class="bi bi-list" viewBox="0 0 16 16">
+                <button type="button" onclick="document.getElementById('ganas').click();" aria-label="Abrir o cerrar menú de navegación">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="currentColor" class="bi bi-list" viewBox="0 0 16 16" aria-label="Desplegable del menú de navegación" tabindex="1" role="checkbox" >
                         <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5"/>
                     </svg>
-                </span>
+                </button>
             </label>
             <nav>
                 <ol>
@@ -107,15 +107,22 @@
         <section>
             <article>
                 <h3 id="AccionyAventura">Acción y Aventura en Cada Misión</h3>
-                <div id="ContenedorDeTextoImagen">
+                <div>
                     <div>
                         <p>La colección Playmobil Policía es perfecta para quienes aman la acción, la estrategia y la emoción de resolver casos. Con una gran variedad de sets, desde estaciones de policía hasta coches patrulla, helicópteros y unidades especiales, esta línea permite recrear persecuciones, operativos y rescates llenos de adrenalina.</p>
                         <p>Los detalles realistas y la calidad de Playmobil garantizan horas de juego imaginativo, donde los pequeños y coleccionistas pueden convertirse en héroes de la ley y el orden. ¿Listo para hacer justicia y atrapar a los villanos?</p>
                         <p>Descubre todos los modelos, características y detalles que hacen única a esta colección. Además, encuentra las mejores opciones para comprar, vender o ampliar tu mundo Playmobil Policía.</p>
                     </div>
-                    <figure>
-                        <img src="" alt="">
-                    </figure>
+                </div>
+                <div id="carrusel">
+                    <div >
+                        <img src="../../imagenes/FotosPolicia1.jpg" alt="imagen 1">
+                        <img src="../../imagenes/FotosPolicia3.jpg" alt="imagen 3">
+                    </div>
+                    <div>
+                        <button></button>
+                        <button></button>
+                    </div>
                 </div>
             </article>
         </section>
